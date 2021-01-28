@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <!--服务端口-->
+    <port>21</port>
+    <users>
+        <user>
+            <!--用户名-->
+            <username>admin1</username>
+            <!--登录密码-->
+            <password>123</password>
+            <!--访问目录-->
+            <homeDirectory>/Users/leyao/j-ftp</homeDirectory>
+            <!--写权限-->
+            <writePermission>true</writePermission>
+            <!--登录时长，单位：秒-->
+            <maxIdleTime>7200</maxIdleTime>
+        </user>
+        <user>
+            <username>admin2</username>
+            <password>456</password>
+            <homeDirectory>/Users/leyao/j-ftp</homeDirectory>
+            <writePermission>true</writePermission>
+            <maxIdleTime>7201</maxIdleTime>
+        </user>
+        <user>
+            <username>admin3</username>
+            <password>789</password>
+            <homeDirectory>/Users/leyao/j-ftp</homeDirectory>
+            <writePermission>true</writePermission>
+            <maxIdleTime>7202</maxIdleTime>
+        </user>
+    </users>
+</config>
